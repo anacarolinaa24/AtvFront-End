@@ -1,0 +1,24 @@
+{
+  "name": "atvidades-front-and",
+  "version": "1.0.0",
+  "description": "Atvividades Front And",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anacarolinaa24/AtvFront-End.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anacarolinaa24/AtvFront-End/issues"
+  },
+  "homepage": "https://github.com/anacarolinaa24/AtvFront-End#readme",
+  "devDependencies": {
+    "typescript": "^5.8.2"
+  }
+}
