@@ -4,6 +4,8 @@
   "description": "Atvividades Front And",
   "main": "index.js",
   "scripts": {
+    "start": "react-scripts start",
+    "server": "node server.js",
     "build": "tsc",
     "dev": "tsc -w"
   },
@@ -19,6 +21,11 @@
   },
   "homepage": "https://github.com/anacarolinaa24/AtvFront-End#readme",
   "devDependencies": {
+    "@types/react": "^19.1.0",
     "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
   }
 }

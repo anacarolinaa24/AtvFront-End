@@ -1,0 +1,47 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  width: 300px;
+  text-align: center;
+}
+
+/* 📱 Estilos para telas menores */
+@media (max-width: 600px) {
+  .card {
+    width: 80%; /* Ajusta a largura para ocupar mais espaço */
+    padding: 15px;
+  }
+
+  .image {
+    width: 80px;
+    height: 80px;
+  }
+
+  .name {
+    font-size: 1.2rem;
+  }
+
+  .description {
+    font-size: 0.9rem;
+  }
+}
+
+/* 🖥 Estilos para telas maiores */
+@media (min-width: 900px) {
+  .card {
+    flex-direction: row;
+    width: 500px;
+    text-align: left;
+  }
+
+  .image {
+    width: 120px;
+    height: 120px;
+    margin-right: 20px;
+  }
+}

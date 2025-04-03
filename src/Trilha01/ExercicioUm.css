@@ -1,0 +1,20 @@
+.styled-button {
+  background-color: #6200ea;
+  color: white;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.styled-button:hover {
+  background-color: #4500b5;
+  transform: scale(1.05);
+}
+
+.styled-button:active {
+  background-color: #370085;
+  transform: scale(0.95);
+}
