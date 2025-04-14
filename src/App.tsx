@@ -1,22 +1,12 @@
 import React from "react";
-import ExercicioDois from "./Trilha01/ExercicioDois";
-import ExercicioUm from "./Trilha01/ExercicioUm";
+import ExercicioUm from "./Trilha03/ExercicioUm";
 
-const App: React.FC = () => {
+function App() {
   return (
     <div>
-      <ExercicioDois
-        name="João Silva"
-        description="Desenvolvedor Frontend"
-        imageUrl="https://via.placeholder.com/150"
-      />
-
-      <ExercicioUm
-        label="Clique aqui"
-        onClick={() => alert("Botão clicado!")}
-      />
+      <ExercicioUm />
     </div>
   );
-};
+}
 
 export default App;
