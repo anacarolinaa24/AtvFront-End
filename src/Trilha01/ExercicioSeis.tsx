@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import ".ExercicioSeis.css";
+import "./ExercicioSeis.css";
 
 const ExercicioSeis: React.FC = () => {
   const [formData, setFormData] = useState({

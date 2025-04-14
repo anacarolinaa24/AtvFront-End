@@ -1,5 +1,5 @@
 import React from "react";
-import "./Button.css"; // Importa o CSS externo
+import "./ExercicioUm.css";
 
 interface ButtonProps {
   label: string;
