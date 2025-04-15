@@ -1,0 +1,76 @@
+.busca-usuario {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.busca-usuario h2 {
+  color: #333;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.form-grupo {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.input-busca {
+  flex: 1;
+  padding: 0.8rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.botao-buscar {
+  padding: 0.8rem 1.5rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.botao-buscar:hover {
+  background-color: #0056b3;
+}
+
+.botao-buscar:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.erro {
+  color: #dc3545;
+  padding: 0.8rem;
+  background-color: #f8d7da;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+}
+
+.card-usuario {
+  background-color: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: 4px;
+  border: 1px solid #dee2e6;
+}
+
+.card-usuario h3 {
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.card-usuario p {
+  margin: 0.5rem 0;
+  color: #666;
+}
+
+.card-usuario strong {
+  color: #333;
+}
